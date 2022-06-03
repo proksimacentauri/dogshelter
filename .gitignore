@@ -1,6 +1,6 @@
 /server/config/
 /server/node_modules/
-
+/.idea/
 
 .DS_Store
 .env.local
@@ -12,12 +12,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/client/node_modules/
-
 /.pnp
 .pnp.js
 
-/.idea/
 # testing
 /client/coverage
 
