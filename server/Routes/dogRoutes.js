@@ -15,6 +15,14 @@ module.exports = app => {
     });
   });
   //create new dog
-
+  app.post('/dog', async (req, res) =>{
+    const dog = await new Dog(req.body).save();
+    res.send(dog);
+  });
   //delete dog
+  app.delete('/dog/:id', async (req, res) => {
+    Dog.findByIdAndDelete({ _id: ObjectId(req.params.id)}, (err, dog) => {
+      res.send("dog deleted.");
+    });
+  });
 };

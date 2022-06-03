@@ -1,6 +1,5 @@
 /server/config/
 /server/node_modules/
-/client/node_modules/
 /**/.idea/*
 .idea/
 .idea/*
@@ -16,3 +15,6 @@ yarn-error.log*
 
 /.pnp
 .pnp.js
+!/client/public/robots.txt
+!/client/public/
+/client/node_modules/
