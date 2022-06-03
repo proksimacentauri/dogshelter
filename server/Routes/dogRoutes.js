@@ -14,4 +14,7 @@ module.exports = app => {
       res.send(dog);
     });
   });
+  //create new dog
+
+  //delete dog
 };
