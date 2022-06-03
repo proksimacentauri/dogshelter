@@ -12,12 +12,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-/client/node_modules
+/client/node_modules/
 
 /.pnp
 .pnp.js
 
-/.idea
+/.idea/
 # testing
 /client/coverage
 
