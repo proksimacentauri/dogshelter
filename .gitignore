@@ -1,6 +1,7 @@
 /server/config/
 /server/node_modules/
-/.idea/
+.idea/
+.idea/*
 
 .DS_Store
 .env.local
@@ -14,9 +15,3 @@ yarn-error.log*
 
 /.pnp
 .pnp.js
-
-# testing
-/client/coverage
-
-# production
-/client/build
