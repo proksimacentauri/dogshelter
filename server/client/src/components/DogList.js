@@ -6,7 +6,7 @@ const DogList = () => {
   const [dogs, setDogs] = useState([]);
 
   const fetchDogs = async () => {
-    const res = await axios.get('/dogs');
+    const res = await axios.get('/api/dogs');
     console.log(res);
     setDogs(res.data);
   }
